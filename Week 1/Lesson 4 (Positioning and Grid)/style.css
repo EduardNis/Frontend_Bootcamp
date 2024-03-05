@@ -1,0 +1,221 @@
+
+#box-vertical {
+    background-color: red;
+    height: 25px;
+    width:100%;
+    position:absolute;
+    left: 0%;
+    top: 50px;
+}
+
+#box-horizontal {
+
+    background-color: red;
+    height:100%;
+    width: 25px;
+    position: absolute;
+    left: 50px;
+    top: 0%;    
+}
+
+
+
+#parent-chart{
+    background-color: blueviolet;
+    border-radius: 8px;
+    height: 200px;
+    width: 350px;
+    position: relative;
+    left: 600px;
+    top: 250px;
+    display: inline-block;
+}
+
+.label {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    position: absolute;
+}
+
+
+#money {
+    left: 10px;
+    top: 10px;    
+}
+
+#time {
+    right: 10px;
+    bottom: 10px;   
+}
+
+.column{
+    background-color: lightgray;
+    position: absolute;
+    bottom: 12px;
+}
+
+#col-1{
+    height: 50px;
+    width: 25px;
+    left: 10px;
+}
+
+#col-2{
+    height: 120px;
+    width: 25px;
+    left: 55px;
+}
+
+#col-3{
+    height: 140px;
+    width: 25px;
+    left: 100px;
+}
+
+#col-4{
+    height: 120px;
+    width: 25px;
+    left: 145px;
+}
+
+#col-5{
+    height: 100px;
+    width: 25px;
+    left: 190px;
+}
+
+#col-6{
+    height: 70px;
+    width: 25px;
+    left: 235px;
+
+}
+
+
+#parent-magnet{
+    height: 300px;
+    width: 400px;
+    background-color: darkred;
+    position: relative;
+    top: 200px;
+    left: 550px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.square{
+    background-color: white;
+    position: absolute;
+    height: 225px;
+    width: 250px;
+    left: 75px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#sq-2 {
+    height: 75px;
+    width: 75px;
+    left: 0;
+    background-color: silver;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 5px;
+
+
+}
+
+#sq-3 {
+    height: 75px;
+    width: 75px;
+    left: 325px;
+    background-color: silver;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+
+}
+
+
+#chocolate {
+    height: 300px;
+    width: 600px;
+    background-color: black;
+    position: relative;
+    top: 200px;
+    left: 450px;
+
+}
+
+.piece {
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    background-color: #66320E;
+    left: 5px;
+    top: 5px;
+
+}
+
+#pc-2{
+    left: 5px;
+    top: 155px;
+}
+
+#pc-3{
+    left: 155px;
+    top: 155px;
+}
+
+#pc-4{
+    left: 305px;
+    top: 155px;
+}
+
+#pc-5{
+    left: 155px;
+    top: 5px;
+}
+
+#pc-6{
+    left: 305px;
+    top: 5px;
+}
+
+#pc-7{
+    left: 455px;
+    top: 5px;
+}
+
+#split{
+    width: 590px;
+    height: 3px;
+    background-color: #66320E;
+    position: absolute;
+    top: 148px;
+    left: 5px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
