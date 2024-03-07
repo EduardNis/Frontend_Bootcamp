@@ -1,0 +1,30 @@
+
+.nav-container{
+    height: 80px;
+}
+
+.nav-container ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 450px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tweet-container{
+    display: flex;
+}
+
+.tweet-container .left-container img{
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+}
+
+.tweet-container .inner-bottom-container ul{
+    display: flex;
+    list-style-type: none;
+    justify-content:space-evenly;
+    width: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

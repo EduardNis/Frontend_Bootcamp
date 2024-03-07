@@ -1,0 +1,134 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75px;    
+}
+
+.header .navigation ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header .search-and-tweet {
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    align-items: center;
+    
+    
+}
+
+.header .search-and-tweet .search input{
+    border-radius: 20px;
+    height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    
+}
+
+.header .search-and-tweet .tweet{
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    align-items: center;
+}
+
+.header .search-and-tweet .tweet img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border-style: none;
+    
+}
+
+
+.header .search-and-tweet .tweet button{
+    border-radius: 15px;
+    width: 90px;
+    height: 25px;
+    background-color:dodgerblue;
+    border-color: dodgerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 5px;
+    
+
+}
+
+.banner {
+    display: flex;
+    position: fixed;
+    background-color: dodgerblue;
+    width:100%;
+    left: 0;
+    height: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.user-profile{
+    display: flex;
+    position: relative;
+    top: 320px;
+    justify-content:space-around;
+    left: -100px;
+    
+}
+
+
+.user-profile .statistics{
+    display: flex;
+
+}
+
+.user-profile .statistics img{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 125px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    
+    
+}
+
+.user-profile .statistics ul{
+    display: flex;
+    position: absolute;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 300px;
+    top: 70px;
+    left: 450px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+    
+}
+
+.user-profile .follow button{
+    position: absolute;
+    border-radius: 15px;
+    border-color: lightgray;
+    background-color: lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: dodgerblue;
+    font-weight: bold;
+    top: 90px;
+    left: 1300px;;
+    height: 30px;
+    width: 100px;
+
+}
